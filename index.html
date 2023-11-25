@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My visit card</title>
+
+    <style>
+        .body {
+            height: 100%;
+            margin: 0%;
+            padding: 0%;
+            background-color: aliceblue;
+        }
+        
+        .head {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        
+        
+        .main {
+            display: flex;
+            justify-content: space-around;
+            height: 100%;
+            background-color: aliceblue;
+        }
+
+
+        .myPhoto {
+            border-radius: 10px;
+        }
+
+        .info {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            font-size: x-large;
+        }
+
+        .serviceRus {
+            margin-left: 360px;
+        }
+
+        .service {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            align-items: center;
+        }
+
+        .center {
+            margin-left: 95px;
+        }
+
+        .center2 {
+            margin-left: 75px;
+        }
+
+
+        .footer {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            background-color: mediumturquoise;
+            position: fixed;
+            left: 0; bottom: 0;
+            padding: 5px;
+            width: 100%;
+        }
+
+
+    </style>
+
+</head>
+<body class="body"> 
+<header class="head">
+
+    <h1>It`s my visit card</h1>
+
+
+
+
+</header>
+
+
+<main class="main">
+<div>
+    <img class="myPhoto" src="myImage.jpg" alt="It`s me" width="450px" height="600px">
+
+</div>
+
+<div class="info">
+    <span class="serviceRus"><h3>Обо мне</h3></span>
+    <div>
+        <p>
+            <ul>
+                <li>Имя: Алексеев Никита Сергеевич</li>
+                <li>Вораст: 24</li>
+                <li>Город: Екатеринбург</li>
+                <li>Профессия: начинающий Full Stack разработчик</li>
+                <li>Стаж: 1 неделя</li>
+                <li>Характеристика: ответственный, всегда на связи, помогу с любой проблемой</li>
+            </ul>
+        </p>
+    </div>
+    
+    <div class="serviceRus"><h3>Услуги</h3></div>
+    <div class="service">
+        <div>
+           <div class="center2"> <img src="https://e7.pngegg.com/pngimages/549/715/png-clipart-web-development-logo-website-web-design-symmetry.png" alt="web" width="50px" height="50px"> </div>
+            <p>Разработка сайтов</p>
+        </div>
+
+        <div>
+            <div class="center"><img src="https://w7.pngwing.com/pngs/954/804/png-transparent-web-development-mobile-app-development-computer-icons-mobile-app-icons-web-application-computer-programming-mobile-app-development.png" alt="app" width="50px" height="50px"> </div>
+            <p>Разработка приложений</p>
+        </div>
+    </div>
+
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div>
+        <a href="https://github.com/NikitaAlekseew?tab=projects">
+        <button>
+        <img src="https://w7.pngwing.com/pngs/698/768/png-transparent-computer-icons-github-symbol-github-white-face-text.png" alt="Работы" width="30px" height="18px">
+        </button>
+        Мои работы
+    </a>
+    
+    </div>
+    
+    
+    
+    <div>
+        <a href="https://t.me/Nikita_Alekseew">
+            <button>
+                <img src="https://w7.pngwing.com/pngs/374/463/png-transparent-telegram-logos-and-brands-icon-thumbnail.png" alt="tg" width="15px" height="15px">
+            </button>
+            Мои контакты
+        </a>
+    
+    
+    </div>
+
+</footer>
+</div>
+
+
+</body>
+</html>
